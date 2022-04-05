@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-import Votacoes from "./pages/Votacao";
+import Musicas from "./pages/musicas";
 
+import './html-css-template/css/reset.css'
+import './html-css-template/css/style.css'
 
 function App() {
 
   return (
     <>
+      <Musicas />
       
-      <Votacoes titulo="BK"/>
-      <Votacoes titulo="MC"/>
     </>
   );
 }
